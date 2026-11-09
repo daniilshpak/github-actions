@@ -2,7 +2,7 @@ name: GitHub Actions Homework
 run-name: Workflow by ${{ github.actor }}
 on:
   pull_request:
-    types: [opened]
+    types: [opened, reopened]
 env:
   GITHUB_ACTIONS: "true"
 jobs:
