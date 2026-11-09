@@ -1,4 +1,5 @@
-name: Workflow by ${{ github.actor }}
+name: GitHub Actions Homework
+run-name: Workflow by ${{ github.actor }}
 on:
   pull_request:
     types: [opened]
